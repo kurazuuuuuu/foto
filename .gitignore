@@ -1,7 +1,7 @@
 # Foto
-.foto/
-assets/
-media/
+foto/.foto
+foto/assets
+foto/media
 
 # MacOS
 .DS_Store

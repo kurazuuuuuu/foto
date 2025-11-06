@@ -5,11 +5,9 @@ metadata:
   name: foto
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: backend=ghcr.io/kurazuuuuuu/foto-backend,frontend=ghcr.io/kurazuuuuuu/foto-frontend
-    argocd-image-updater.argoproj.io/backend.update-strategy: latest
-    argocd-image-updater.argoproj.io/frontend.update-strategy: latest
-    argocd-image-updater.argoproj.io/backend.pull-secret: pullsecret:argocd/ghcr-registry-secret
-    argocd-image-updater.argoproj.io/frontend.pull-secret: pullsecret:argocd/ghcr-registry-secret
+    argocd-image-updater.argoproj.io/image-list: foto=ghcr.io/kurazuuuuuu/foto
+    argocd-image-updater.argoproj.io/foto.update-strategy: latest
+    argocd-image-updater.argoproj.io/foto.pull-secret: pullsecret:argocd/ghcr-registry-secret
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-repository: https://github.com/kurazuuuuuu/foto.git
     argocd-image-updater.argoproj.io/write-back-target: kustomization
