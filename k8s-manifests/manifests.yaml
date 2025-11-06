@@ -17,6 +17,7 @@ spec:
       containers:
       - name: foto
         image: ghcr.io/kurazuuuuuu/foto:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---

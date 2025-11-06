@@ -4,4 +4,4 @@ resources:
 - manifests.yaml
 images:
 - name: ghcr.io/kurazuuuuuu/foto
-  newTag: v25.11.1
+  newTag: latest
