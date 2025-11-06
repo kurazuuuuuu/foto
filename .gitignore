@@ -1,0 +1,7 @@
+# Foto
+.foto/
+assets/
+media/
+
+# MacOS
+.DS_Store
