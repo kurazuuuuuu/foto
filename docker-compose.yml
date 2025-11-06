@@ -1,0 +1,7 @@
+services:
+  foto:
+    image: nginx:stable-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./foto/dist:/usr/share/nginx/html:ro

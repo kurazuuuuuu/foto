@@ -9,7 +9,7 @@ permissions:
   packages: write
 
 env:
-  VERSION: v25.11
+  VERSION: v25.11.1
 
 jobs:
     build:
